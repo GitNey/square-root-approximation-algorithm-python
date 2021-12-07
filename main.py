@@ -7,9 +7,9 @@ approx = g * g
 
 if (__name__ == '__main__'):
 
-  while (approx <= target):
+  while (int(approx) != int(target)):
     # Moar iterations...
-    if (g < target):
+    if (approx < target):
       g += threshold
     else:
       g -= threshold
